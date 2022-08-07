@@ -8,7 +8,7 @@ _Data Visualization with Tableau_
 
 For this project I am creating data visualization with Tableau for bike sharing program in New York City. The idea is to analyze the data, see the mechanics of the business and figure out how the bike share business actually works in NYC. This is the first step of expanding the idea to other cities. With a strong and clear story, backed-up by data we can create a proposal on how the business could work in other cities as well.
 
-**The Tableau story of the NYC CitiBike can be found in the following link:**  [NYC CitiBike](https://public.tableau.com/app/profile/awalindeep.buttar/viz/NYCCitiBikeStory_16596585114120/NYCCitiBike?publish=yes) 
+**The Tableau story of the NYC CitiBike can be found in the following link:**  [NYC CitiBike](https://public.tableau.com/app/profile/awalindeep.buttar/viz/NYCCitiBike_16598318741350/NYCCitBikeStory)
 
 ### Background
 
@@ -35,10 +35,13 @@ On first page of the story is the dashboard that contains basic information abou
 
 The page contains the following information:
 
--   Type of business, time frame and location of the data: CitiBike, New York City, August 2019.
+-   Checkout times for users
+-  Checkout time by genders
+- Gender Breakdown
 -   Number of the total rides: 2,344,224.
--   Customer type: subscribers and customers.
--   Peak hours, divided by gender, with at-a-glance information about user behaviour.
+- User trips by gender by weekday
+-   Trips by weekday per hour
+- Trips by weekday per hour (by gender)
 
 ### 1. Checkout Times for Users
 
@@ -92,6 +95,7 @@ The story of the NYC CitiBike starts off with the basic information about the us
 
 Bike maintenance plays a big role in bike share business. Heat maps are great visualization for large amount of data and give us clear story about the data. From the graphs  _Peak Hours per Gender_,  _Trips by Weekday per Hour_  and  _Trips by Gender (Weekday per Hour)_  we can see that the least busy time is between 11pm and 5am. That suggests a good time for bike maintenance. Additionally, graph  _Bike Utilization_  shows that we could group bike utilization roughly into 4 groups. Some bikes are used far more often than the other. In this case we can make a stagger plan for maintenance and rotation of the bikes from popular station to less popular stations as we can in the graph  _Top Starting Stations_  and  _Top Ending Stations_.
 
+![10](https://github.com/awalindeep/Bikesharing/blob/AwalinGHMAIN/Resources/10.png)
 **Customers and Subscribers**
 
 Customers are the most important part in the business. Our business is doing well because of them. In bike share business we have two types of users with a slightly different habit of using the service. It is important to be aware of those differences to ensure a good customer experience. In popular times for tourism we can expect that more customers (non-subscribers) will use the service. In order to be prepared for this surge, business should plan ahead for bike and station maintenance, rotation of the bikes and keep popular stations stocked.
